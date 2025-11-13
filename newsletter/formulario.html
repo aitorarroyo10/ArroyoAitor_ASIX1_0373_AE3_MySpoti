@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../favicons/music-solid-full.svg">
+    <title>Formulario de inscripción</title>
+
+</head>
+<body>
+
+    <h1>Formulario de inscripción newsletter</h1>
+
+    <h2><a href="../index.html">Volver al índice</a></h2>
+
+    <p>Completa el siguiente formulario para recibir novedades sobre el artista Kendrick Lamar</p>
+
+    <form action="enviar" method="post">
+
+        <fieldset>
+
+            <legend>Datos</legend>
+            
+            <label for="nombre">Nombre:</label>
+
+            <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+            
+            <br>
+            
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for="apellidos">Apellidos:</label>
+
+            <input type="text" id="apellidos" name="apellidos" placeholder="Introduce tus apellidos"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for="edad">Edad:</label>
+
+            <input type="number" id="edad" name="edad" placeholder="Introduce tu edad">
+            
+            <br>
+            
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <label for="pais">País:</label>
+
+            <select id="pais" name="pais">
+
+                <option value="" selected>Seleccione una ciudad</option>
+
+                <option value="España">España</option>
+
+                <option value="Argentina">Argentina</option>
+                
+                <option value="Reino Unido">Reino Unido</option>
+
+                <option value="Otros">Otro</option>
+
+            </select>
+            
+            <br>
+            
+            <br>
+
+        </fieldset>
+
+        <fieldset>
+
+        <fieldset>
+
+            <label for="correo">Correo Electrónico:</label>
+            
+            <input type="email" id="correo" name="correo" placeholder="Introduce tu correo"><br><br>
+
+        </fieldset>
+
+        <fieldset>
+
+                <label for="intereses">Intereses</label><br>
+
+                <textarea name="observaciones" placeholder="Introduce observaciones que tengas" rows="5" cols="20"></textarea>
+
+                <br>
+            
+        </fieldset>
+
+            <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
